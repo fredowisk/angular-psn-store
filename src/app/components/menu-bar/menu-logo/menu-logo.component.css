@@ -1,0 +1,16 @@
+.menu-bar__logo {
+	position: absolute;
+	left: 2%;
+	top: 8%;
+}
+
+.menu-bar__logo img {
+	width: 140px;
+	height: 32px;
+}
+
+@media screen and (max-width: 550px) {
+	.menu-bar__logo {
+		display: none;
+	}
+}

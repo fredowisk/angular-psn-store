@@ -1,0 +1,17 @@
+.card-info__value__money {
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.card-info__value__money > p {
+	font-weight: bold;
+	font-size: 26px;
+}
+
+@media screen and (max-width: 350px) {
+	.card-info__value__money > p {
+		font-size: 18px;
+	}
+}

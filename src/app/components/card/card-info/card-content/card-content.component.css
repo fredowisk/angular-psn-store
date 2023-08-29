@@ -1,0 +1,32 @@
+.card-info__title {
+	margin-bottom: 3px;
+}
+
+.card-info__value__console {
+	height: 20px;
+
+	display: flex;
+	align-items: center;
+}
+
+.card-info__value__console > span:first-of-type {
+	font-weight: bolder;
+	height: 18px;
+	color: aqua;
+}
+
+.card-info__value__console span:last-of-type {
+	height: 18px;
+	margin-inline: 5px;
+}
+
+.card-info__value__console > p:first-of-type {
+	text-transform: uppercase;
+	margin-left: 8px;
+}
+
+@media screen and (max-width: 350px) {
+	.card-info__value__console {
+		height: 19px;
+	}
+}
